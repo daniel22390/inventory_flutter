@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:inventory/pages/create_product.dart';
+import 'package:inventory/pages/detail_product.dart';
 import 'package:provider/provider.dart';
 import 'package:inventory/pages/auth_or_app_page.dart';
 import 'package:inventory/utils/app_routes.dart';
@@ -36,6 +37,7 @@ class MyApp extends StatelessWidget {
       routes: {
         AppRoutes.home: (ctx) => const AuthOrAppPage(),
         AppRoutes.newproduct: (ctx) => const CreateProduct(),
+        AppRoutes.detailsproduct: (ctx) => const DetailProduct(),
       },
       debugShowCheckedModeBanner: false,
     );

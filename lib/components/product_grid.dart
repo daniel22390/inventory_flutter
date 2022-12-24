@@ -21,18 +21,11 @@ class ProductGrid extends StatelessWidget {
           return Center(child: Text('Nenhum produto disponível!'));
         } else {
           final products = snapshot.data!;
-          return GridView.builder(
-            padding: const EdgeInsets.all(10),
+          return ListView.builder(
             itemCount: products.length,
             itemBuilder: (ctx, i) => ProductGridItem(
               key: ValueKey(products[i].id),
               product: products[i]
-            ),
-            gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-              crossAxisCount: 2,
-              childAspectRatio: 3 / 2,
-              crossAxisSpacing: 10,
-              mainAxisSpacing: 10,
             ),
           );
         }
