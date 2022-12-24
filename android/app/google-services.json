@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1058355876826",
+    "project_id": "icm-inventory",
+    "storage_bucket": "icm-inventory.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1058355876826:android:de4d920c005ed9be6fa6e3",
+        "android_client_info": {
+          "package_name": "br.com.icm.inventory"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1058355876826-evmrjn32ugh78hmf9nms8dkukar6m3h4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyilkb5of0-l4B6UbDUcYw52WVBv6etLc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1058355876826-evmrjn32ugh78hmf9nms8dkukar6m3h4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
